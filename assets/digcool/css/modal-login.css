@@ -1,0 +1,301 @@
+.modal-login {		
+    color: #636363;
+    width: 350px;
+}
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-login .modal-header {
+    border-bottom: none;   
+    position: relative;
+    justify-content: center;
+}
+.modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+}
+.modal-login .form-control:focus {
+    border-color: #70c5c0;
+}
+.modal-login .form-control, .modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px; 
+}
+.modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}	
+.modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.modal-login .modal-footer a {
+    color: #999;
+}		
+.modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #60c7c1;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-login .avatar img {
+    width: 100%;
+}
+.modal-login.modal-dialog {
+    margin-top: 80px;
+}
+.modal-login .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+    background: #45aba6;
+    outline: none;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
+.paymentWrap {
+	padding: 50px;
+}
+
+.paymentWrap .paymentBtnGroup {
+	max-width: 800px;
+	margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+	padding: 40px;
+	box-shadow: none;
+	position: relative;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active {
+	outline: none !important;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod.active .method {
+	border-color: #4cd264;
+	outline: none !important;
+	box-shadow: 0px 3px 22px 0px #7b7b7b;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	bottom: 3px;
+	left: 3px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid transparent;
+	transition: all 0.5s;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.visa {
+	background-image: url("/assets/payments/paypal.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.master-card {
+	background-image: url("/assets/payments/stripe.jpg");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.amex {
+	background-image: url("/assets/payments/paystack.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.vishwa {
+	background-image: url("/assets/payments/credit.png");
+}
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+	border-color: #4cd264;
+	outline: none !important;
+}
+
+/*font Awesome http://fontawesome.io*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/*Comment List styles*/
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  /*For wrapping text in thumbnail*/
+  word-wrap: break-word;
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+    /*Use boarder color of panel*/
+    border-left-color: inherit;
+    border-width: 16px;
+  }
+  /*Background color effect*/
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-left-color: #FFFFFF;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+  margin-top: 6px;
+}
+
+/**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+	padding: 60px 0;
+}
+section .section-title{
+	text-align:center;
+	color:#007b5e;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}

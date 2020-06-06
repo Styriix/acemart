@@ -1,0 +1,26 @@
+​​Welcome to AceMart​
+​Have you ever keep wondering how out lovely Codester do works and how you can sell your digital product in exchanges for cash.
+Here come AceMart a multivendor Digital Market Place where Digital product are sold and download immidiatly.
+​AceMart ​comes with multivendor feature which allow other users to sell on your website with a certain set discount will be charge on each sale which mean both the product author and the site owner earn. That is Fun Huh!
+
+​AceMart ​comes with amazing and easy to use File uploading system which does not require the page to load to upload your awesome product.
+
+​AceMart ​comes with a very secure payment and popular payment gateways Paypal and Stripe. Any other payment gateways can easily be implement base on buyer required.
+
+​AceMart ​Logs and send all activities email to the respective receivers e.g Item rating notifications, Transactions notification, Item comments notification.
+
+​AceMart ​comes with 8 diffrenct and customizable email template with owner can esilly customize as it taste.
+
+This is the first installment of acemart much more feature are plan in near future to keep it more intresting this product will be continus updating frequently.
+
+Happy Market I wish you Good Lucks in sales.​​​​​
+
+
+
+==========================================================================
+
+<ul><li>Adminstrative Panel</li><li>Friendly and easy use design</li><li>Customizable email templates</li><li>SMTP email configuration</li><li>Free from sql inection</li><li>Free from xss&nbsp;</li><li>Multivendor features</li><li>Item rating</li><li>item comments</li><li>And many more.</li></ul>
+
+====================================================================================
+
+<ul><li>PHP 7.1+</li><li>Apache Mod rewrite</li><li>Curl extention</li><li>zip extention</li><li>Mobstring</li><li>PDO extention</li><li>LAMP sever recommended</li><li>Paypal API Credentials</li><li>Stipe API Credentials</li></ul>

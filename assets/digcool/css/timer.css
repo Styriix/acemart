@@ -1,0 +1,37 @@
+/* CHANGE COLOR AND FONT HERE */
+:root {
+  --board-color: #497959;
+  --frame-color: #B78240;
+  --main-font-color: #E8E8E8;
+  --main-font-family: 'Trebuchet MS';
+}
+
+#timer {
+  width: 465px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 24px 0;
+}
+
+#timer .board {
+  width: 23%;
+  margin: 0 1%;
+  font-family: var(--main-font-family), Arial, sans-serif;
+  font-weight: 700;
+}
+
+#timer .board > div.number {
+  background-color: #762c92;
+  border: var(--frame-color) solid 5px;
+  color: var(--main-font-color);
+  font-size: 48px;
+  padding: 18px 0;
+}
+
+#timer .board > div.labels {
+  padding-top: 8px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
